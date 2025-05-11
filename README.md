@@ -1,10 +1,8 @@
 # Peopleware-zh
 
 《人件(原书第 3 版)》
+在线阅读：
 
-在线阅读：[http://gdut_yy.gitee.io/doc-pw/](http://gdut_yy.gitee.io/doc-pw/)
-
-<img src="./docs/cover.png" width=24% />
 
 ## 目录
 
@@ -70,25 +68,23 @@
 - [38 自由电子](docs/ch38.md)
 - [39 霍尔加·丹斯克](docs/ch39.md)
 
+
 ## 本地开发 & 阅读
 
-本项目基于 vuepress 进行开发，以提供比 github mardown 更佳的阅读体验
+本项目基于 VitePress 进行开发，以提供比 Github Mardown 更佳的阅读体验
 
-依赖于 `node.js`、`yarn`、`vuepress` 等环境
+依赖于 [`node.js`][nodejs]、[`vitepress`][vitepress] 等环境
+
+[nodejs]: https://nodejs.org/zh-cn/
+[vitepress]: https://vitepress.dev/zh/
 
 ```sh
-# vuepress
-yarn global add vuepress
-
-# 本地开发
-git clone https://github.com/gdut-yy/Peopleware-zh.git
-cd Peopleware-zh/
-yarn docs:dev
+git clone https://github.com/Cactus-proj/Peopleware-3ed-zh.git
+cd Peopleware-3ed-zh/
+npm install         # 安装 VitePress
+npm run docs:dev    # 编译并打开网页预览
 ```
 
-## 更多书籍
-
-[https://github.com/xx-zh/xx-zh-roadmap](https://github.com/xx-zh/xx-zh-roadmap)
 
 ## License
 
